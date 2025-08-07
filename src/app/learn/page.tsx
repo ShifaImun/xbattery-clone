@@ -63,7 +63,7 @@ export default function Learn() {
             <div>
               <h2>Electricity</h2>
               <ul>
-                <li>India's Electricity Sector</li>
+                <li>India&apos;s Electricity Sector</li>
                 <li>Power Purchase Agreement</li>
                 <li>Indian Electricity Terminologies</li>
                 <li>Why Our Power Goes Out</li>
@@ -139,7 +139,7 @@ export default function Learn() {
                 <div className={styles.blogFooterLearnCategory}>
                   <h3>Electricity</h3>
                   <ul>
-                    <li>India's Electricity Sector</li>
+                    <li>India&apos;s Electricity Sector</li>
                     <li>Power Purchase Agreement</li>
                     <li>Indian Electricity Terminologies</li>
                     <li>Why Our Power Goes Out</li>
