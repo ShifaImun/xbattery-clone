@@ -27,9 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <nav className={styles.navbar}>
-          <Link href="/customer-portal" className={styles.customerPortalBtn}>Customer Portal</Link>
-        </nav>
+        
         {children}
       </body>
     </html>
