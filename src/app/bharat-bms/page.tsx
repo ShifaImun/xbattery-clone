@@ -90,7 +90,7 @@ export default function BharatBMS() {
               <span style={{ color: "#a259ff" }}>BharatBMS</span>
             </h1>
             <p className={styles.bharatBmsHeroSubtitle + " " + styles.fadeIn}>
-              India's first scalable high-voltage Battery Management System up to 800 volts for EVs and energy storage
+              India&apos;s first scalable high-voltage Battery Management System up to 800 volts for EVs and energy storage
             </p>
           </div>
           <div className={styles.bharatBmsHeroImgWrap}>
@@ -105,7 +105,7 @@ export default function BharatBMS() {
       {/* Description Section */}
       <section className={styles.bharatBmsDescSection + " " + styles.fadeIn}>
         <p className={styles.bharatBmsDescText + " " + styles.fadeIn}>
-          BharatBMS is India's first universal high-voltage Battery Management System (BMS architecture) up to 800 volts for EVs and energy storage that scales effortlessly from home applications to industrial installations and EVs. It's as effective in a 5kWh home backup system as it is in megawatt-scale battery packs.
+          BharatBMS is India&apos;s first universal high-voltage Battery Management System (BMS architecture) up to 800 volts for EVs and energy storage that scales effortlessly from home applications to industrial installations and EVs. It&apos;s as effective in a 5kWh home backup system as it is in megawatt-scale battery packs.
         </p>
       </section>
       {/* Features Section */}
@@ -173,11 +173,11 @@ export default function BharatBMS() {
         </div>
         <div className={styles.bharatBmsInfoCard + " " + styles.fadeIn}>
           <h3 className={styles.bharatBmsInfoTitle} style={{ color: '#3ecbff' }}>Built for Indian Conditions</h3>
-          <p className={styles.bharatBmsInfoDesc}>India's power conditions can be challenging – from voltage fluctuations to complete outages. Our system handles these scenarios smoothly, protecting your batteries while keeping your power flowing. The electronics are designed to handle our climate, from dusty summers to humid monsoons.</p>
+          <p className={styles.bharatBmsInfoDesc}>India&apos;s power conditions can be challenging – from voltage fluctuations to complete outages. Our system handles these scenarios smoothly, protecting your batteries while keeping your power flowing. The electronics are designed to handle our climate, from dusty summers to humid monsoons.</p>
         </div>
         <div className={styles.bharatBmsInfoCard + " " + styles.fadeIn}>
           <h3 className={styles.bharatBmsInfoTitle} style={{ color: '#3ecbff' }}>Made in India</h3>
-          <p className={styles.bharatBmsInfoDesc}>We are proud to say that every circuit board is manufactured and tested in India, with most components sourced locally. This isn't just about self-reliance – it means faster support and better adaptability to local needs. Our team in Hyderabad can quickly modify the design based on user feedback and local requirements.</p>
+          <p className={styles.bharatBmsInfoDesc}>We are proud to say that every circuit board is manufactured and tested in India, with most components sourced locally. This isn&apos;t just about self-reliance – it means faster support and better adaptability to local needs. Our team in Hyderabad can quickly modify the design based on user feedback and local requirements.</p>
         </div>
       </section>
       {/* Partnership Section */}

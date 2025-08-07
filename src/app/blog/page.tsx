@@ -45,7 +45,7 @@ export default function Blog() {
                 <span className={styles.blogPostAuthor}>by Xbattery Engineering Team</span>
               </div>
               <h2 className={styles.blogPostTitle}>Switched Capacitor Based Active Balancing: A Guide</h2>
-              <p className={styles.blogPostDesc}>Active charge balancing in Li-ion battery packs improves efficiency, battery life, and safety. Learn how it works and why it's essential for energy storage systems.</p>
+              <p className={styles.blogPostDesc}>Active charge balancing in Li-ion battery packs improves efficiency, battery life, and safety. Learn how it works and why it&apos;s essential for energy storage systems.</p>
             </div>
           </div>
 
@@ -60,7 +60,7 @@ export default function Blog() {
                 <span className={styles.blogPostAuthor}>by Xbattery Engineering Team</span>
               </div>
               <h2 className={styles.blogPostTitle}>Active Charge Balancing of Li-ion Batteries: A Guide</h2>
-              <p className={styles.blogPostDesc}>Active charge balancing in Li-ion battery packs improves efficiency, battery life, and safety. Learn how it works and why it's essential for energy storage systems.</p>
+              <p className={styles.blogPostDesc}>Active charge balancing in Li-ion battery packs improves efficiency, battery life, and safety. Learn how it works and why it&apos;s essential for energy storage systems.</p>
             </div>
           </div>
 
@@ -184,7 +184,7 @@ export default function Blog() {
                 <div className={styles.blogFooterLearnCategory}>
                   <h3>Electricity</h3>
                   <ul>
-                    <li>India's Electricity Sector</li>
+                    <li>India&apos;s Electricity Sector</li>
                     <li>Power Purchase Agreement</li>
                     <li>Indian Electricity Terminologies</li>
                     <li>Why Our Power Goes Out</li>

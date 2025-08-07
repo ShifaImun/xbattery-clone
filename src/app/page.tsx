@@ -29,8 +29,7 @@ const howItWorksTabs = [
 ];
 
 export default function Home() {
-  const [howTab, setHowTab] = useState(2); // Default to 'Power Restoration' as in screenshot
-
+  const [howTab, setHowTab] = useState(2); 
   return (
     <>
       <div className={styles.heroContainer}>
@@ -85,7 +84,7 @@ export default function Home() {
 
 
             <p className={styles.bharatBmsDesc}>
-              India's first universal Battery Management System scales from 5kWh setups to megawatt applications, offering modular upgrades and reliable performance in tough power conditions.
+              India&apos;s first universal Battery Management System scales from 5kWh setups to megawatt applications, offering modular upgrades and reliable performance in tough power conditions.
             </p>
             <p className={styles.bharatBmsDesc}>
               Made in India with local components, it ensures fast support and customization while driving innovation in energy storage and EV products.
@@ -123,7 +122,7 @@ export default function Home() {
 
 
         <p className={styles.capacitySubtitle}>
-          Xbattery's 5kWh system is designed to grow with your needs. Simply add more batteries to expand capacity and keep up with your power demands.
+          Xbattery&apos;s 5kWh system is designed to grow with your needs. Simply add more batteries to expand capacity and keep up with your power demands.
         </p>
         <div className={styles.capacityBatteryWrap}>
           <span className={styles.capacityValue}>5kWh</span>
@@ -161,7 +160,7 @@ export default function Home() {
 
 
         <p className={styles.howItWorksSubtitle}>
-          You're covered at every stage of an outage. Its intelligent modes kick in before the power goes out, ensuring your stays powered through any disruption.
+          You&apos;re covered at every stage of an outage. Its intelligent modes kick in before the power goes out, ensuring your stays powered through any disruption.
         </p>
         <div className={styles.howItWorksMediaWrap}>
           <video

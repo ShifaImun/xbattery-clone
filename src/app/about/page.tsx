@@ -18,7 +18,7 @@ function Navbar() {
           <Link href="/blog" className={styles.heroNavLink}>Blog</Link>
           <Link href="/whitepapers" className={styles.heroNavLink}>Whitepapers</Link>
         </div>
-        <a className={styles.customerPortalBtn} href="#">Customer Portal</a>
+        <a className={styles.customerPortalBtn} href="/customer-portal">Customer Portal</a>
       </nav>
     );
   }
@@ -151,7 +151,7 @@ export default function About() {
         </div>
         <div className={styles.aboutCeoText + " " + styles.fadeIn}>
           <p>Climate change is one of the existential risks for humanity. I believe technology plays major role in fighting the crisis. How we generate and consume energy plays a big part in this. India has set an ambitious goal of generating 50% of its energy from renewable sources by 2030. To achieve this, we need to have the supporting technology in place. Of course, we made great progress in renewable energy generation, and we are on the right path. But there is a crucial piece missing: energy storage which makes renewable energy more efficient.</p>
-          <p>India needs to create advanced battery technology to support this. Producing battery cells and BMS locally is critical. With these advancements, building large-scale battery packs is not just possible—it's within reach.</p>
+          <p>India needs to create advanced battery technology to support this. Producing battery cells and BMS locally is critical. With these advancements, building large-scale battery packs is not just possible—its within reach.</p>
           <p>The vision of Xbattery is clear: to make India self-reliant in battery technology. One of the key products of this vision is BharatBMS, our state-of-the-art BMS that can be used to build battery packs of any size and works with wide battery chemistries. Creating such a unified BMS is no easy task, and we are fully aware of the challenges.</p>
           <p>To achieve this, I believe perseverance must remain our core value. We have already developed key technologies like BharatBMS and secured initial partnerships, but this is a tough journey, and we are committed to take on.</p>
           <p>We are excited to launch our first energy storage product for homes and businesses, featuring the BharatBMS. If you want early access, send an email to <a href="mailto:support@xbattery.energy">support@xbattery.energy</a>.</p>
@@ -165,21 +165,23 @@ export default function About() {
             <img className={styles.aboutLeaderImg} src="https://xbattery.energy/_next/image?url=%2Fimages%2Fabout%2Fteams%2Fshortimages%2F1.png&w=256&q=75" alt="Satish Reddy" />
             <div>
               <h3 className={styles.aboutLeaderName + " " + styles.fadeIn}>Satish Reddy, CEO of Xbattery <span>🔗</span></h3>
-              <p className={styles.aboutLeaderDesc + " " + styles.fadeIn}>Satish Reddy leads Xbattery as founder and CEO. He spent 15 years in tech, working at Microsoft before starting his own company. His first venture, Pascalcase, grew to 35 people and hit $500K in annual revenue within 5 years. Now he's switched gears completely. Instead of building software, he's tackling something bigger: India's power backup problems. His experience scaling companies and building solid teams comes in handy when you're trying to change how energy storage works in India.</p>
+              <p className={styles.aboutLeaderDesc + " " + styles.fadeIn}>Satish Reddy leads Xbattery as founder and CEO. He spent 15 years in tech, working at Microsoft before starting his own company.
+                 His first venture, Pascalcase, grew to 35 people and hit $500K in annual revenue within 5 years. Now he switched gears completely. Instead of building software, 
+                 he tackling something bigger: India power backup problems. His experience scaling companies and building solid teams comes in handy when you trying to change how energy storage works in India.</p>
             </div>
           </div>
           <div className={styles.aboutLeaderCard + " " + styles.fadeIn}>
             <img className={styles.aboutLeaderImg} src="https://xbattery.energy/_next/image?url=%2Fimages%2Fabout%2Fleaders%2F2.png&w=1200&q=75" alt="Sonu Mishra" />
             <div>
               <h3 className={styles.aboutLeaderName + " " + styles.fadeIn}>Sonu Mishra, CTO of Xbattery <span>🔗</span></h3>
-              <p className={styles.aboutLeaderDesc + " " + styles.fadeIn}>Sonu Mishra brings hands-on battery expertise to Xbattery as co-founder and CTO. After getting his Master's in Embedded Systems from Stuttgart, he spent 5 years at Bosch Germany working on energy systems and battery management. Now back in India, he's putting his German engineering experience to work on local power problems. Turns out, designing chips and battery systems for one of Germany's biggest tech companies is pretty useful when you're building power backup solutions for Indian conditions.</p>
+              <p className={styles.aboutLeaderDesc + " " + styles.fadeIn}>Sonu Mishra brings hands-on battery expertise to Xbattery as co-founder and CTO. After getting his Master&apos;s in Embedded Systems from Stuttgart, he spent 5 years at Bosch Germany working on energy systems and battery management. Now back in India, he putting his German engineering experience to work on local power problems. Turns out, designing chips and battery systems for one of Germany biggest tech companies is pretty useful when you building power backup solutions for Indian conditions.</p>
             </div>
           </div>
         </div>
       </section>
       {/* Clean Energy Section */}
       <section className={styles.aboutCleanSection + " " + styles.fadeIn}>
-        <h2 className={styles.aboutCleanTitle + " " + styles.fadeIn}><span style={{ color: '#3ecbff' }}>Building India's Clean Energy Backbone</span></h2>
+        <h2 className={styles.aboutCleanTitle + " " + styles.fadeIn}><span style={{ color: '#3ecbff' }}>Building India&apos;s Clean Energy Backbone</span></h2>
         <div className={styles.aboutCleanSubtitle + " " + styles.fadeIn}>Engineered in India for India</div>
         <div className={styles.aboutCleanImgWrap}>
           <img className={styles.aboutCleanImg} src="https://xbattery.energy/_next/image?url=%2Fimages%2Fabout%2Fgroup2.png&w=1920&q=75" alt="Xbattery Team Banner" />
